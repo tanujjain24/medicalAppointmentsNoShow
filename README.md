@@ -1,4 +1,4 @@
-# Investiaget Dataset on Medical Appointments No Shows
+# Investigating Dataset on Medical Appointments No Shows
 
 This dataset is a collection of approx 100k medical appointments in Brazil and is focused on the question of whether or not the patients show up for their appointment.
 
