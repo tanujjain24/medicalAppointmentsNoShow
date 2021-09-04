@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+# Investigate Medical Appointments No Shows Dataset
 
-You can use the [editor on GitHub](https://github.com/tanujjain24/medicalAppointmentsNoShow/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This dataset is a collection of approx 100k medical appointments in Brazil and is focused on the question of whether or not the patients show up for their appointment.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Question's Answered
+Q1. What is the patient health designation breakdown of no-shows versus shows?
 
-### Markdown
+Q2. What is the breakdown of no-shows versus shows by patients that received SMS reminders?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Q3. Identify the average difference between Schedule Day and Appointment Day
 
-```markdown
-Syntax highlighted code block
+Q4. What is the overall showup v/s no showup rate of the appointments?
 
-# Header 1
-## Header 2
-### Header 3
+Q5. Which Neighbourhood have the highest number of No-shows?
 
-- Bulleted
-- List
+Q6. Do appointment no-shows occur on specific days of the week?
 
-1. Numbered
-2. List
+Q7. Identify trends in appointment shows v/s no shows over time?
 
-**Bold** and _Italic_ and `Code` text
+## Wrangling Data
+- Checked the integrity of the data.
+- Identified Missing & Duplicated Values.
+- Cleaning Column Labels for consisting in analysis.
+- Fixed Data Type.
 
-[Link](url) and ![Image](src)
-```
+## Exploratory Data Analysis 
+- Creating Masks & Sub dataframes for easy analysis & avoiding repetitive coding.
+- Analyzing using single & multiple variables to investigate different features and the relations between the features.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tanujjain24/medicalAppointmentsNoShow/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
